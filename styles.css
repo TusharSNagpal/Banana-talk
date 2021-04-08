@@ -1,12 +1,24 @@
 textarea{
     width: 60%;
     height: 80px;
-    border: solid;
+    border:1px solid;
     display: block;
     padding: 1rem;
     margin: 1rem;
 }
 
+.output-head{
+    padding: 1rem 1rem;
+    font-size: larger;
+}
+
 button{
     margin-left: 1rem;
+}
+
+#output{
+    border:1px solid ;
+    width: 60%;
+    height: 80px;
+    padding: 1rem;
 }
