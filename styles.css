@@ -1,0 +1,12 @@
+textarea{
+    width: 60%;
+    height: 80px;
+    border: solid;
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+button{
+    margin-left: 1rem;
+}
