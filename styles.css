@@ -1,19 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
+
+:root{
+    --primary-color: #FCD34D;
+    --green-light: #10B981;
+}
+
+body{
+    font-family: 'Changa', sans-serif;
+    background-image: url('/images/Ferb.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+    background-size: 9rem;
+}
+
+.inline{
+    display: inline;
+}
+
+.container-center{
+    margin: auto;
+    max-width: 700px;
+}
+
 textarea{
+    font-family: 'Changa', sans-serif;
     width: 60%;
     height: 80px;
     border:1px solid;
     display: block;
-    padding: 1rem;
+    padding: 1rem 8rem;
     margin: 1rem;
+    border: 4px solid var(--primary-color);
+    background-color: lightgreen;
+    color: purple;
+    font-weight: bold;
+    font-size: larger;
 }
 
 .output-head{
     padding: 1rem 1rem;
     font-size: larger;
+    font-weight: bolder;
 }
 
 button{
+    padding: 0.5rem 1rem;
     margin-left: 1rem;
+    border-radius: 1rem;
+    background-color: purple;
+    color: white;
+    border: 2px solid var(--primary-color);
+}
+
+.header{
+    background-color: var(--primary-color);
+    padding: 3rem 5rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
 }
 
 #output{
@@ -21,6 +67,11 @@ button{
     height: 80px;
     border:1px solid;
     display: block;
-    padding: 1rem;
+    padding: 1rem 8rem;
     margin: 1rem;
+    border: 4px solid var(--primary-color);
+    background-color: lightgreen;
+    color: purple;
+    font-weight: bold;
+    font-size: larger;
 }
