@@ -2,6 +2,7 @@ var btnTrans = document.querySelector("#btn-trans");
 var txtArea = document.querySelector("#txt-area");
 var outputDisp = document.querySelector("#output");
 
+
 /*var userName = prompt("Hey! What is your name?");
 alert("Welcome, " +  userName + ".");*/
 
