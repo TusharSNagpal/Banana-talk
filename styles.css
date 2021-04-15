@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom right;
+    background-position-x: 68rem;
     background-size: 9rem;
 }
 
@@ -20,13 +21,13 @@ body{
 
 .container-center{
     margin: auto;
-    max-width: 700px;
+    max-width: 650px;
 }
 
 textarea{
     font-family: 'Changa', sans-serif;
-    width: 60%;
-    height: 80px;
+    width: auto;
+    height: auto;
     border:1px solid;
     display: block;
     padding: 1rem 8rem;
@@ -54,6 +55,7 @@ button{
 }
 
 .header{
+    margin-top: 0;
     background-color: var(--primary-color);
     padding: 3rem 5rem;
     text-align: center;
@@ -63,11 +65,11 @@ button{
 }
 
 #output{
-    width: 60%;
-    height: 97px;
+    width: auto;
+    height: auto;
     border:1px solid;
     display: block;
-    padding: 1rem 8rem;
+    padding: 5.1rem 8rem;
     margin: 1rem;
     border: 4px solid var(--primary-color);
     background-color: lightgreen;
